@@ -1,1 +1,143 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:500,700");
+
+body {
+	line-height: 26px;
+	font-size: 15px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: #777777;
+	background: url(../src/assets/images/body-bg.png) no-repeat center; }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+	font-family: "Rubik", sans-serif;
+	font-weight: 500;
+	color: #000000; }
+  
+  .list {
+	list-style: none;
+	margin: 0px;
+	padding: 0px; }
+  
+  a {
+	text-decoration: none;
+	transition: all 0.3s ease-in-out; }
+	a:hover, a:focus {
+	  text-decoration: none;
+	  outline: none; }
+  
+  button:focus {
+	outline: none;
+	box-shadow: none; }
+  
+  .mt-25 {
+	margin-top: 25px; }
+  
+  .p0 {
+	padding-left: 0px;
+	padding-right: 0px; }
+  
+  .white_bg {
+	background: #fff !important; }
+  
+  .mb-50 {
+	margin-bottom: 50px; }
+  
+  .ml-15 {
+	margin-left: 15px; }
+  
+  .ml-20 {
+	margin-left: 20px; }
+  
+  .mt-50 {
+	margin-top: 50px; }
+  
+  /*---------------------------------------------------- */
+  /*----------------------------------------------------*/
+  .section_gap {
+	padding: 200px 0; }
+	@media (max-width: 1199px) {
+	  .section_gap {
+		padding: 80px 0; } }
+  
+  .section_gap_top {
+	padding-top: 200px; }
+	@media (max-width: 1199px) {
+	  .section_gap_top {
+		padding-top: 80px; } }
+  
+  .section_gap_bottom {
+	padding-bottom: 200px; }
+	@media (max-width: 1199px) {
+	  .section_gap_bottom {
+		padding-bottom: 80px; } }
+  
+  /* Main Title Area css
+  ============================================================================================ */
+  .main_title {
+	text-align: center;
+	margin-bottom: 100px; }
+	@media (max-width: 1199px) {
+	  .main_title {
+		margin-bottom: 50px; } }
+	.main_title h2 {
+	  font-size: 36px;
+	  font-weight: 700;
+	  margin-bottom: 15px;
+	  line-height: 50px;
+	  text-transform: uppercase; }
+	  @media (max-width: 991px) {
+		.main_title h2 br {
+		  display: none; } }
+	  @media (max-width: 767px) {
+		.main_title h2 {
+		  font-size: 30px;
+		  line-height: 34px; } }
+	.main_title p {
+	  margin-bottom: 0px; }
+	  @media (max-width: 991px) {
+		.main_title p br {
+		  display: none; } }
+	.main_title.white h2 {
+	  color: #fff; }
+	.main_title.white p {
+	  color: #fff;
+	  opacity: .6; }
+  
+  /* End Main Title Area css
+  ============================================================================================ */
+  /* Start Gradient Area css
+  ============================================================================================ */
+  .gradient-bg, .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link, .blog_right_sidebar .widget_title, .blog_right_sidebar .newsletter_widget .bbtns, .blog_right_sidebar .tag_cloud_widget ul li a:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .comments-area .btn-reply:hover {
+	background: -webkit-linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+	background: -moz-linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+	background: -o-linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+	background: linear-gradient(90deg, #4458dc 0%, #854fee 100%); }
+  
+  .border-gradient {
+	border-image: -webkit-linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+	border-image: -moz-linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+	border-image: -o-linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+	border-image: linear-gradient(90deg, #4458dc 0%, #854fee 100%); }
+  
+  .gradient-bg2 {
+	background: -webkit-linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+	background: -moz-linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+	background: -o-linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+	background: linear-gradient(90deg, #4458dc 0%, #854fee 100%); }
+  
+  .gradient-color, .contact_info .info_item i {
+	background: -webkit-linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+	background: -moz-linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+	background: -o-linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+	background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; }
+  
+  /* End Gradient Area css
+  ============================================================================================ */
+  
