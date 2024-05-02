@@ -34,7 +34,7 @@
 .footer_area .footer_social a {
   padding: 0 20px;
 }
-.footer_area .footer_social a i {
+.footer_area .footer_social a fa-icon {
   color: #788489;
   font-size: 22px;
   -webkit-transition: all 0.4s ease 0s;
@@ -43,11 +43,11 @@
   transition: all 0.4s ease 0s;
 }
 @media (max-width: 576px) {
-  .footer_area .footer_social a i {
+  .footer_area .footer_social a fa-icon {
     font-size: 25px;
   }
 }
-.footer_area .footer_social a i:hover {
+.footer_area .footer_social a fa-icon:hover {
   color: #854fee;
 }
 .footer_area .footer_bottom {
