@@ -21,7 +21,7 @@ export class AppComponent{
 
     setTimeout(() => {
       this.spinner.hide()      
-    }, 5000);
+    }, 3000);
   }
 }
 function ngOnInit() {
