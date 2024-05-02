@@ -12,6 +12,6 @@ export class FooterComponent {
   faLinkedin = faLinkedin
   faGithub = faGithub
   faWhatsapp = faWhatsapp
-  faWebAwesome = faInternetExplorer
+  faInternetExplorer = faInternetExplorer
   
 }
