@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faList } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-nav',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class NavComponent {
 
+  faList = faList
 }

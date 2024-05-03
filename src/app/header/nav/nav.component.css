@@ -43,6 +43,18 @@
   background: #fff;
 }
 @media (min-width: 992px) {
+  .header_area.navbar_fixed .main_menu {
+    position: fixed;
+    width: 100%;
+    top: -70px;
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    transform: translateY(70px);
+    transition: transform 500ms ease, background 500ms ease;
+    -webkit-transition: transform 500ms ease, background 500ms ease;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); }
+    
   .header_area .navbar .nav .nav-item.submenu ul {
     position: absolute;
     top: 120%;
@@ -161,7 +173,7 @@
   .nav-item
   .nav-link {
   line-height: 70px;
-  color: #000000;
+  color: #ffffff;
 }
 
 .owl-carousel.off {
@@ -181,7 +193,7 @@
   }
 
   .header_area .navbar {
-    background: #000;
+    background: #ffffff;
   }
 
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
@@ -208,7 +220,7 @@
     display: block;
     width: 25px;
     height: 3px;
-    background: #fff;
+    background: #000000;
     margin: auto;
     margin-bottom: 4px;
     transition: all 400ms linear;
