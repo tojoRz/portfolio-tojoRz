@@ -1,0 +1,36 @@
+.basic-1 {
+	padding-top: 7.75rem;
+	padding-bottom: 5.25rem;
+}
+
+.basic-1 .text-container {
+	margin-bottom: 3rem;
+}
+
+.basic-1 .time {
+	margin-bottom: 0.5rem;
+	color: #4458dc;
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 1.5rem;
+	font-family: "Rubik", sans-serif;
+}
+
+.basic-1 h6 {
+	margin-bottom: 0.125rem;
+}
+
+@media (min-width: 1200px) {
+    .basic-1 .text-container.first {
+        margin-right: 2rem;
+    }
+
+    .basic-1 .text-container.second {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .basic-1 .text-container.third {
+        margin-left: 2rem;
+    }
+}
