@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { faList } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-nav',
@@ -8,5 +7,9 @@ import { faList } from '@fortawesome/free-solid-svg-icons';
 })
 export class NavComponent {
 
-  faList = faList
+  isMenuOpen: boolean = false;
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
 }
