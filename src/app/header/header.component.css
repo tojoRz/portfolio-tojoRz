@@ -197,22 +197,6 @@
   .header_area + div {
     margin-top: 0px;
   }
-
-  .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
-    line-height: 40px;
-    color: #fff;
-  }
-
-  .header_area.white_menu.navbar_fixed
-    .main_menu
-    .navbar
-    .nav
-    .nav-item
-    .nav-link {
-    line-height: 40px;
-    color: #fff;
-  }
-
   .header_area.white_menu .navbar .nav .nav-item .nav-link {
     color: #222;
   }
