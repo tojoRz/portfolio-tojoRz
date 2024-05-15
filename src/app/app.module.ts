@@ -12,6 +12,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutComponent } from './about/about.component';
 import { TrainingComponent } from './training/training.component';
+import { SkillsComponent } from './skills/skills.component';
 
 
 
@@ -22,7 +23,8 @@ import { TrainingComponent } from './training/training.component';
     NavComponent,
     FooterComponent,
     AboutComponent,
-    TrainingComponent
+    TrainingComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
