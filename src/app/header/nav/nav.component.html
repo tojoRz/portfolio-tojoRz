@@ -13,10 +13,10 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div [ngClass]="{'collapse': !isMenuOpen, 'navbar-collapse': true, 'offset': true}" id="navbarSupportedContent">
                     <ul class="nav navbar-nav menu_nav justify-content-end">
-                        <li class="nav-item" [routerLinkActive]="'active'" [routerLinkActiveOptions]="{exact: true}"><a class="nav-link" [routerLink]="['/accueil']">Accueil</a></li>
-                        <li class="nav-item" [routerLinkActive]="'active'"><a class="nav-link" [routerLink]="['/apropos']">A propos</a></li>
-                        <li class="nav-item" [routerLinkActive]="'active'"><a class="nav-link" [routerLink]="['/formations']">Formations</a></li>
-                        <li class="nav-item" [routerLinkActive]="'active'"><a class="nav-link" [routerLink]="['/contact']">Contact</a></li>
+                        <li class="nav-item" [class.active]="isSectionActive('home')"><a class="nav-link" (click)="scrollToSection('home')">Accueil</a></li>
+                        <li class="nav-item" [class.active]="isSectionActive('about')"><a class="nav-link" (click)="scrollToSection('about')">A propos</a></li>
+                        <li class="nav-item" [class.active]="isSectionActive('training')"><a class="nav-link" (click)="scrollToSection('training')">Formations</a></li>
+                        <li class="nav-item" [class.active]="isSectionActive('footer')"><a class="nav-link" (click)="scrollToSection('footer')">Contact</a></li>
                     </ul>
                 </div>
             </div>

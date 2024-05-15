@@ -12,16 +12,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AboutComponent } from './about/about.component';
 import { TrainingComponent } from './training/training.component';
-import { Routes } from '@angular/router';
 
-const routes: Routes = [
-  { path: 'accueil', component: HeaderComponent },
-  { path: 'formation', component: TrainingComponent },
-  { path: 'apropos', component: AboutComponent },
-  { path: 'contact', component: FooterComponent },
-  { path: '', redirectTo: '/accueil', pathMatch: 'full' },
-  { path: '**', redirectTo: '/accueil', pathMatch: 'full' }
-];
 
 
 @NgModule({
