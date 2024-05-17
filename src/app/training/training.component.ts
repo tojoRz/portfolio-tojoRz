@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { faBriefcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-training',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class TrainingComponent {
 
+  faGraduationCap = faGraduationCap
+  faBriefcase = faBriefcase
 }
