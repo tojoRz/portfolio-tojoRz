@@ -17,6 +17,26 @@ a:focus {
   text-decoration: none;
   outline: none;
 }
+p {
+  color: #4d5055;
+  font: 400 1rem / 1.625rem "Open Sans", sans-serif;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-variant-alternates: normal;
+  font-kerning: auto;
+  font-optical-sizing: auto;
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  font-variant-position: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-family: "Open Sans", sans-serif;
+}
 h1,
 h2,
 h3,
@@ -237,7 +257,7 @@ button:focus {
   height: 100%;
   width: 100%;
 }
-.active{
+.active {
   color: #4458dc;
 }
 /* End Gradient Area css
