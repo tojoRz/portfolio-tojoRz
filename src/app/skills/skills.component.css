@@ -1,6 +1,6 @@
 .feature_item {
     padding: 45px 25px;
-    text-align: center;
+    text-align: start;
     background: #f9f9fd;
     cursor: pointer;
     margin-bottom: 30px;
@@ -8,9 +8,14 @@
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
+    align-items: start;
+
   }
-  .feature_item img {
-    margin-bottom: 35px;
+  .feature_item fa-icon {
+    margin-bottom: 1.75rem;
+    color: #4458dc;
+    font-size: 3.5rem;
+
   }
   .feature_item h4 {
     font-size: 20px;
@@ -20,6 +25,9 @@
   .feature_item:hover {
     box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
     background: #fff;
+  }
+  .feature_item ul {
+    padding: 0px 0px 0px 0px!important;
   }
   
   .competence_item {
@@ -41,7 +49,7 @@
     text-decoration: none;
     background-color: #e0e0e000;
     border: 1px solid #4458dc;
-    margin-left: 4px;
+    margin-right: 4px;
     margin-top: 4px;
   }
   .competence_item:hover {
