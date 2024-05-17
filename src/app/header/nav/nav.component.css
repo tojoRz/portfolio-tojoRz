@@ -130,25 +130,24 @@
   }
 
   .navbar-toggler.is-open {
-    margin-bottom: 0; 
+    margin-bottom: 0;
   }
 
   .navbar-toggler.is-open span:nth-child(2) {
     opacity: 0;
   }
-  
+
   .navbar-toggler.is-open span:first-child {
     transform: rotate(-45deg);
     position: relative;
     top: 7.5px;
   }
-  
+
   .navbar-toggler.is-open span:last-child {
     transform: rotate(45deg);
     bottom: 6px;
     position: relative;
   }
-  
 
   .navbar-toggler span {
     display: block;
@@ -171,20 +170,41 @@
   }
   .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 40px;
-    color: #fff; }
+    color: #fff;
+  }
 
-  .header_area.white_menu.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+  .header_area.white_menu.navbar_fixed
+    .main_menu
+    .navbar
+    .nav
+    .nav-item
+    .nav-link {
     line-height: 40px;
-    color: #fff; }
-    .header_area.white_menu .navbar .nav .nav-item .nav-link {
-      color: #fff; }
-    .header_area.white_menu.navbar_fixed .main_menu .navbar .navbar-brand img {
-      display: inline-block; }
-      .header_area.white_menu.navbar_fixed .main_menu .navbar .navbar-brand img + img {
-        display: none; }
-    .header_area.white_menu.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
-      line-height: 70px;
-      color: #000000; }
+    color: #fff;
+  }
+  .header_area.white_menu .navbar .nav .nav-item .nav-link {
+    color: #fff;
+  }
+  .header_area.white_menu.navbar_fixed .main_menu .navbar .navbar-brand img {
+    display: inline-block;
+  }
+  .header_area.white_menu.navbar_fixed
+    .main_menu
+    .navbar
+    .navbar-brand
+    img
+    + img {
+    display: none;
+  }
+  .header_area.white_menu.navbar_fixed
+    .main_menu
+    .navbar
+    .nav
+    .nav-item
+    .nav-link {
+    line-height: 70px;
+    color: #000000;
+  }
 }
 .header_area.navbar_fixed .main_menu {
   position: fixed;
@@ -196,6 +216,8 @@
   transform: translateY(70px);
   transition: transform 500ms ease, background 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
-  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1); }
-  .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
-    line-height: 70px; }
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+}
+.header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+  line-height: 70px;
+}
